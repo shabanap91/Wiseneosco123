@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+ 
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontent Task</title>
+    <!-- Bootstrap link  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Font CDN  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- style link      -->
+    <link rel="stylesheet" href="../styles/style.css">
+    <!-- js  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+    <script src="../Js/index.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="wrapper text-light">
+            <div class="row main">
+                <div class="col-3 p-3 sides">
+                    <div class="searchbar p-3"><br>
+                        <div class="row">
+                            <div class="col-6">
+                                <input type="search" placeholder="Search location">
+                            </div>
+                            <div class="col-2">
+                                <i class="fa fa-search" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                        <!-- <input type="search" placeholder="Search location" > -->
+                    </div><br><br>
+                    <div class="per p-3">
+                        <p class=" text-light fa-2x">12&#8451
+                            <span style="font-size: 30px;">&nbsp;&nbsp;&nbsp;+/-</span> 3 <br><span>9.8%</span>
+                            <span id="text">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;wind: wsw 6/h</span>
+                        </p>
+                    </div><br>
+                    <div class="row  p-3">
+                        <div class="col">
+                            <img src="../images/cr.png" width="30px" alt="">
+                            <p>Safe</p>
+                            <li>0.00%-0.9% </li>
+                            <li>0.9%-11%</li>
+                        </div>
+                        <div class="col">
+                            <h5>0.8%</h5>
+                            <p>Dangerous</p>
+                            <li>12%-40%</li>
+                            <li>55%-80%</li>
+                        </div>
+                    </div>
+                    <br><br><br>
+                    <div class="row">
+                        <div class="col-2 m-2"><br>
+                            <p>12pm</p>
+                            <p>1pm</p>
+                            <p>11am</p>
+                            <p>1am</p>
+                        </div>
+                        <div class="col box">
+                            <p class="fa-2x">12&#8451
+                            </p>
+                            <canvas id="myChart1" style=" opacity: .7; ">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col"></div>
+                        <div class="col">-10</div>
+                        <div class="col">-5</div>
+                        <div class="col">0</div>
+                        <div class="col">+10</div>
+                        <div class="col">+15</div>
+                        <div class="col">+20</div>
+                    </div>
+                    <div class=""><br><br><br>
+                        <h4 class="p-2 m-0">Greater Noida</h4>
+                        <p class="p-2">
+                            Noida, short for New Okhla Industrial Development Authority, is a city located in Gautam
+                            Buddha Nagar district of the Indian state of UP.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-9">
+                    <div class="heading m-5">
+                        NATINAL <br> WEATHER
+                    </div><br>
+                    <div class="content1 m-5">
+                        <p>Weather Forecast</p>
+
+                        <p class="fa-2x">
+                            Storm <br> with Heavy Rain
+                        </p>
+                    </div>
+                    <div class="weather m-5">
+                        <i class="fa-solid fa-cloud-showers-water"></i>
+                        <span id="DT">USA, friday, Jan 3 2023,3:20AM</span>
+                        <br><br>
+                        <p class="para">Variable cloud for the New Okhla Industrials</p>
+                        <div class="row">
+                            <div class="col-1">
+                                <span style="font-size: 30px;">17&#8451</span>
+                            </div>
+                            <div class="col-4">
+                                <p>Variable cloud for New Okhla</p>
+                                <p>Variable cloud for New Okhla</p><br>
+                                <button type="button" class="btn btn-light">SEE DETAILS</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <div class="weather m-5" >
+                        <button type="button" class="btn btn-light">SEE DETAILS</button>
+                    </div> -->
+                    <div class="row m-5 sec-end">
+                        <div class="col">high 20.0&#8451</div>
+                        <div class="col">high 30&#8451</div>
+                        <div class="col">high 15&#8451</div>
+                        <div class="col">high 11&#8451</div>
+                        <div class="col"> high -8&#8451</div>
+                        <div class="col">high -9&#8451</div>
+                        <div class="col">high -10&#8451</div>
+                        <div class="row">
+                            <div class="col">low 18&#8451</div>
+                            <div class="col">low 16&#8451</div>
+                            <div class="col">low 13&#8451</div>
+                            <div class="col">low 9&#8451</div>
+                            <div class="col">low -4&#8451</div>
+                            <div class="col"> low -2&#8451</div>
+                            <div class="col">low -1&#8451</div>
+                        </div>
+                        <canvas id="myChart" style="height: 13vh; width: 30rem; opacity:.5">
+                    </div>
+                    <div class="row m-5 fa-2x">
+                        <div class="col">22&#8451</div>
+                        <div class="col">20&#8451</div>
+                        <div class="col">18&#8451</div>
+                        <div class="col">17&#8451</div>
+                        <div class="col">15&#8451</div>
+                        <div class="col">-9&#8451</div>
+                        <div class="col">-8&#8451</div>
+                        <div class="row end">
+                            <div class="col">Washington D.C</div>
+                            <div class="col">Oklahoma City</div>
+                            <div class="col">Philadelphla</div>
+                            <div class="col">San Francisco</div>
+                            <div class="col">New York Cuty</div>
+                            <div class="col">Sourth Dakota</div>
+                            <div class="col">North Dakota</div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <p class="undline"></p>
+                            </div>
+                            <div class="col">
+                                <p class="undline"></p>
+                            </div>
+                            <div class="col">
+                                <p class="undline"></p>
+                            </div>
+                            <div class="col">
+                                <p class="undline"></p>
+                            </div>
+                            <div class="col">
+                                <p class="undline"></p>
+                            </div>
+                            <div class="col">
+                                <p class="undline"></p>
+                            </div>
+                            <div class="col">
+                                <p class="undline"></p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <p class="undline1"></p>
+                            </div>
+                            <div class="col">
+                                <p class="undline1"></p>
+                            </div>
+                            <div class="col">
+                                <p class="undline1"></p>
+                            </div>
+                            <div class="col">
+                                <p class="undline1"></p>
+                            </div>
+                            <div class="col">
+                                <p class="undline1"></p>
+                            </div>
+                            <div class="col">
+                                <p class="undline1"></p>
+                            </div>
+                            <div class="col">
+                                <p class="undline1"></p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        var xValues = [50, 60, 70, 80, 90, 100, 110, 120];
+        var yValues = [7, 8, 8, 9, 9, 9, 10, 11];
+        new Chart("myChart", {
+            type: "line",
+            data: {
+                labels: xValues,
+                datasets: [{
+                    backgroundColor: "",
+                    borderColor: "white",
+
+                    data: yValues
+                }]
+            },
+            options: {
+            }
+        });
+
+        var xValues = [1, 20,1,10, 70,80];
+        var yValues = [7, 8, 2,4,9,12];
+        new Chart("myChart1", {
+            type: "line",
+            data: {
+                labels: xValues,
+                datasets: [{
+                    backgroundColor: "",
+                    borderColor: "yellow",
+
+                    data: yValues
+                }]
+            },
+            options: {
+            }
+        });
+    </script>
+</body>
+
+</html>

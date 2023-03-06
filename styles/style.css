@@ -1,0 +1,88 @@
+.wrapper .main{
+    margin: 0rem;
+    background-color: rgb(0 0 0 / 38%);
+    /* width: 80rem; */
+}
+.wrapper .row .col-3{
+    color: white;
+    border-right: 2px solid rgba(187, 180, 180, 0.384);
+    border-radius: 8px;
+
+}
+body{
+    background-color: rgb(66, 68, 68);
+}
+
+.wrapper{
+    background-image: url(../images/cloud.jpeg);
+    background-repeat: no-repeat;
+    margin: auto;
+    /* width: 80rem; */
+    border-radius: 1rem;
+    background-size: cover
+   
+}
+.sides{
+    backdrop-filter: blur(17px);
+}
+.container{
+    margin: 2rem auto;
+}
+.searchbar input{
+    background-color: rgba(41, 49, 49, 0.185);
+    border: none;
+}
+#text{
+    font-size: 14px;
+}
+.box{
+    /* background-color: aqua; */
+    width: 10px;
+    /* margin: 1rem; */
+    border: 3px solid rgba(114, 111, 104, 0.178);
+    border-radius: 7px;
+}
+#DT{
+    font-size: 12px;
+}
+.para{
+    font-size: 14px;
+}
+#text1{
+    font-size: 14px;
+}
+.weather .btn{
+    background-color: rgba(131, 106, 82, 0.144);
+    border: none;
+    width: 8rem;
+    border-radius:20px;
+    font-size: 12px;
+    color: white;
+}
+.sec-end{
+    font-size: 10px;
+}
+.end{
+    font-size: 12px;
+}
+.undline{
+    width: 90px;
+    margin: 10px 0;
+    border: 1px solid wheat;
+}
+.undline1{
+    width: 90px;
+    border: 2px solid wheat;
+}
+/* graph css...  */
+.graph{
+
+    background: none;
+}
+#myChart{
+    
+}
+#graph{
+    width: 10rem;
+    /* height: 10vh; */
+}
